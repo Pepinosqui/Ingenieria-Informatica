@@ -18,7 +18,7 @@ public class unit_converter {
 		
 		System.out.println("Ingresa la cantidad de pies: ");
 		feet = userInput.nextInt();
-		System.out.println("Ingresa la antidad de pulgadas: ");
+		System.out.println("Ingresa la cantidad de pulgadas: ");
 		inches = userInput.nextInt();
 		
 		// Inches and centimeters conversion
