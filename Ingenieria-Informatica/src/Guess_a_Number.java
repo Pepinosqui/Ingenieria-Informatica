@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Guess_a_Number {
 	public static void main(String[] args) {
-		// Variables
+		// Variables used
 		int randomNumber, guessedNumber, repeatNumber;
 		
 		// Algorithm start
