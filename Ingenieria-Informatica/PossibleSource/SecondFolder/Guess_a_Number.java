@@ -1,3 +1,5 @@
+package SecondFolder;
+
 import java.util.Scanner;
 
 public class Guess_a_Number {
