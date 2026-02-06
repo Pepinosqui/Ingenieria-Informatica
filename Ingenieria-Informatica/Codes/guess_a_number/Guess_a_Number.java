@@ -1,4 +1,4 @@
-package SecondFolder;
+package guess_a_number;
 
 import java.util.Scanner;
 
