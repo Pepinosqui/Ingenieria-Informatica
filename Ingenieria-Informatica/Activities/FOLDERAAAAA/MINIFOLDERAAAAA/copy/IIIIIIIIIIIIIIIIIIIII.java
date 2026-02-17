@@ -1,5 +1,0 @@
-package FOLDERAAAAA.MINIFOLDERAAAAA.copy;
-
-public class IIIIIIIIIIIIIIIIIIIII {
-
-}
