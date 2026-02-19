@@ -2,7 +2,7 @@ package Unit2.ArrayList_Exercises;
 
 import java.util.ArrayList;
 
-public class ArrayList_Exercise2 {
+public class ArrayListExercise2 {
 	public static void main(String[] args) {
 		// Creation of an ArrayList of integers
 		ArrayList<Integer> numbers = new ArrayList<>();
@@ -30,6 +30,16 @@ public class ArrayList_Exercise2 {
 		for(int element : numbers)
 			System.out.println(element);
 		
-		// Answer of the questions
+		// Answering the questions
+		System.out.println("\nThe following are the questions");
+		
+		System.out.println("\nWhat happens to the indexes "
+				+ "after removing an element?");
+		System.out.println(" The indexes of the following elements move "
+				+ "one place, filling the gap left by the removed element");
+		
+		System.out.println("\nHow does the ArrayList size changes?");
+		System.out.println(" It increments by one after adding an element, "
+				+ "and decreases in one after removing an element");
 	}
 }

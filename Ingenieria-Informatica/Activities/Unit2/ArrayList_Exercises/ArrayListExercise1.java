@@ -2,7 +2,7 @@ package Unit2.ArrayList_Exercises;
 
 import java.util.ArrayList;
 
-public class ArrayList_Exercise1 {
+public class ArrayListExercise1 {
 	public static void main(String[] args) {
 		// Creating of an ArrayList of strings
 		ArrayList<String> fruits = new ArrayList<>();
