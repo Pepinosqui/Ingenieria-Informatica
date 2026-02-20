@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Cramer {
 	public static void main(String[] args) {
 		// Declares the variables for the coefficients and results
-		double A, B, C, D, E, F, x, y, determinant;
+		double A, B, C, D, E, F, determinant;
 		
 		// Creates an Scanner object to read input
 		Scanner input = new Scanner(System.in);
