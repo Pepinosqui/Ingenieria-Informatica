@@ -1,8 +1,8 @@
-package guess_a_number;
+package guessANumber;
 
 import java.util.Scanner;
 
-public class Guess_a_Number {
+public class GuessANumber {
 	public static void main(String[] args) {
 		// Variables used
 		int randomNumber, guessedNumber, repeatNumber;

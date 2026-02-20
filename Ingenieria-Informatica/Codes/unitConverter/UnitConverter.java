@@ -1,8 +1,8 @@
-package unit_converter;
+package unitConverter;
 
 import java.util.Scanner;
 
-public class unit_converter {
+public class UnitConverter {
 	
 	public static void main(String[] args) {
 		// Constant values
