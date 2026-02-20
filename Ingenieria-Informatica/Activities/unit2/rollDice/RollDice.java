@@ -1,9 +1,8 @@
-package Unit2;
+package unit2.rollDice;
 
 import java.util.Scanner;
 
-public class rollDice {
-	
+public class RollDice {
 	public static void main(String[] args) {
 		int valord;
 		Scanner input;
@@ -13,6 +12,8 @@ public class rollDice {
 		valord = input.nextInt();
 		
 		System.out.println("Tiras un total de " + rollDice(valord) + " veces");
+		
+		input.close();
 	}
 	
 	public static int rollDice(int sumad) {

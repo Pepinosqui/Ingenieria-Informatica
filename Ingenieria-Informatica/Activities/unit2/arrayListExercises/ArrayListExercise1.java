@@ -1,4 +1,4 @@
-package Unit2.ArrayList_Exercises;
+package unit2.arrayListExercises;
 
 import java.util.ArrayList;
 
