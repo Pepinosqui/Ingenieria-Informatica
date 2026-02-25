@@ -47,5 +47,8 @@ public class QuadraticEquation {
 			System.out.println("  r1 = " + ((-b + Math.pow(discriminant, 0.5)) / (2.0 * a)));
 			System.out.println("  r2 = " + ((-b - Math.pow(discriminant, 0.5)) / (2.0 * a)));
 		}
+		
+		// Closes the Scanner object
+		input.close();
 	}
 }

@@ -15,10 +15,10 @@ public class GuessANumber {
 				+ "is greater\nor less than the original, asking you for a new "
 				+ "number to guess until you are correct.\n");
 		
+		Scanner userInput = new Scanner(System.in);
+		
 		do {
 			randomNumber = (int)(Math.random() * 100.0 % 99 + 1);
-			
-			Scanner userInput = new Scanner(System.in);
 			
 			do {
 				System.out.println("Type your guess between 0 and 100.");
@@ -37,5 +37,7 @@ public class GuessANumber {
 					+ "every other number for yes");
 			repeatNumber = userInput.nextInt();
 		} while(repeatNumber != 0);
+		
+		userInput.close();
 	}
 }

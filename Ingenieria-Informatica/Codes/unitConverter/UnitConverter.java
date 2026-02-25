@@ -31,6 +31,8 @@ public class UnitConverter {
 		System.out.println("\n Una distancia de " + feet + "\' " + inches + "\" "
 			+ "tiene un total de " + totalInches + " pulgadas, que equivale a "
 			+ centimeters + " centímetros");
+		
+		userInput.close();
 	}
 	
 }
